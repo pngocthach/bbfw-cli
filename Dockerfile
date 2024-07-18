@@ -4,9 +4,9 @@ LABEL author="bientd88@gmail.com"
 WORKDIR /bamboofw
 
 
-ENV DEBIAN_FRONTEND noninteractive
+ENV DEBIAN_FRONTEND=noninteractive
 
-ENV ETCD_VER=v3.4.26
+ENV ETCD_VER=v3.27.4
 ENV CALICO_VER=v3.22.1
 
 ENV ETCDCTL_CACERT=/etc/etcd/ssl/ca.pem
